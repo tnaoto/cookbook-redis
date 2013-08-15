@@ -1,0 +1,10 @@
+{
+	"run_list":[ 
+       "yum::epel",
+       "recipe[ruby]",
+       "recipe[redis]"
+	],
+	"ruby":{
+		"version":"1.9.3-p392"
+	}
+}
